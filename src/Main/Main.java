@@ -22,10 +22,10 @@ public class Main
 
                 try {
 
-                    int num1 = sc.nextInt();
-                    int num2 = sc.nextInt();
+                    double num1 = sc.nextInt();
+                    double num2 = sc.nextInt();
 
-                    int i = num1 + num2;
+                    double i = num1 + num2;
 
                     cond = true;
 
