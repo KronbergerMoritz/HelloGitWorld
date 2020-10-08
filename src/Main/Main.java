@@ -16,9 +16,19 @@ public class Main
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Geben Sie bitte 2 Werte ein:");
 
-        int num1 = sc.nextInt();
-        int num2 = sc.nextInt();
+        try {
+            int num1 = sc.nextInt();
+            int num2 = sc.nextInt();
+
+            int i = num1 + num2;
+            System.out.println(i);
+        }
+        catch(Exception e)
+        {
+            
+        }
 
     }
 
